@@ -18,3 +18,11 @@ class FormPage(BasePage):
         self.hobbies_check_1 = WebElement(driver, '#hobbies-checkbox-1')
         self.address = WebElement(driver, '#currentAddress')
         self.user_form = WebElement(driver, '#userForm')
+
+        self.btn_state = WebElement(driver, '#state')
+        self.btn_state_Uttar_Pradesh = WebElement(driver, "//*[contains(text(), 'Uttar Pradesh')]", 'xpath')
+        self.inp_state = WebElement(driver, '#react-select-3-input')
+
+        self.btn_city = WebElement(driver, '#city')
+        self.btn_city_Merrut = WebElement(driver, "//*[contains(text(), 'Merrut')]", 'xpath')
+        self.inp_city = WebElement(driver, '#react-select-4-input')
