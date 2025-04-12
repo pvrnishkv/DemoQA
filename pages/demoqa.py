@@ -14,3 +14,5 @@ class DemoQa(BasePage):
         self.footer = WebElement(driver, '#app > footer > span')
         self.text_centred = WebElement(driver, '#app > div > div > div > div.col-12.mt-4.col-md-6')
 
+        self.h5 = WebElement(driver, '#app h5')
+

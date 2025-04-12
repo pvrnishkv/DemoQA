@@ -30,3 +30,10 @@ class Webtables(BasePage):
         self.btn_next = WebElement(driver, '.-next > button')
         self.total_page = WebElement(driver, '.-pageInfo > span')
         self.page = WebElement(driver, '#app .web-tables-wrapper .-pageInfo input[type=number]')
+
+        self.col_f_name = WebElement(driver, '.web-tables-wrapper .ReactTable .rt-th:nth-child(1)')
+        self.col_l_name = WebElement(driver, '.web-tables-wrapper .ReactTable .rt-th:nth-child(2)')
+        self.col_age = WebElement(driver, '.web-tables-wrapper .ReactTable .rt-th:nth-child(3)')
+        self.col_email = WebElement(driver, '.web-tables-wrapper .ReactTable .rt-th:nth-child(4)')
+        self.col_salary = WebElement(driver, '.web-tables-wrapper .ReactTable .rt-th:nth-child(5)')
+        self.col_department = WebElement(driver, '.web-tables-wrapper .ReactTable .rt-th:nth-child(6)')
